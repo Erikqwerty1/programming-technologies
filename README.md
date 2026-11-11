@@ -1,48 +1,52 @@
-# РўРµС…РЅРѕР»РѕРіРёРё РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏ
+﻿# Технологии программирования
 
-Р›Р°Р±РѕСЂР°С‚РѕСЂРЅС‹Рµ СЂР°Р±РѕС‚С‹ РїРѕ РґРёСЃС†РёРїР»РёРЅРµ **В«РўРµС…РЅРѕР»РѕРіРёРё РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏВ»** (РќРРўРЈ РњРРЎРРЎ).
+Лабораторные работы по дисциплине **«Технологии программирования»** (НИТУ МИСИС).
 
-**РЇР·С‹Рє:** Python 3
+**Язык программирования:** Python 3
 
-## Р›Р°Р±РѕСЂР°С‚РѕСЂРЅС‹Рµ СЂР°Р±РѕС‚С‹
+## Лабораторные работы
 
-| в„– | РўРµРјР° | РњР°С‚РµСЂРёР°Р»С‹ |
+| № | Тема | Материалы |
 |:--:|---|---|
-| 01 | РћР±СЉРµРєС‚РЅРѕ-РѕСЂРёРµРЅС‚РёСЂРѕРІР°РЅРЅРѕРµ РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ | [Lab01](Lab01/) |
-| 02 | РћРћРџ Рё РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёРµ РєР»Р°СЃСЃРѕРІ | [Lab02](Lab02/) |
-| 03 | РџРѕСЂРѕР¶РґР°СЋС‰РёРµ РїР°С‚С‚РµСЂРЅС‹ РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёСЏ | [Lab03](Lab03/) |
-| 04 | РџРѕРІРµРґРµРЅС‡РµСЃРєРёРµ РїР°С‚С‚РµСЂРЅС‹ РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёСЏ | [Lab04](Lab04/) |
-| 05 | РЎС‚СЂСѓРєС‚СѓСЂРЅС‹Рµ РїР°С‚С‚РµСЂРЅС‹ РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёСЏ | [Lab05](Lab05/) |
+| 01 | Объектно-ориентированное программирование | [Lab01](Lab01/) |
+| 02 | ООП и проектирование классов | [Lab02](Lab02/) |
+| 03 | Порождающие паттерны проектирования | [Lab03](Lab03/) |
+| 04 | Поведенческие паттерны проектирования | [Lab04](Lab04/) |
+| 05 | Структурные паттерны проектирования | [Lab05](Lab05/) |
 
-## РџР°С‚С‚РµСЂРЅС‹ РїСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёСЏ
+## Паттерны проектирования
 
-| РљР°С‚РµРіРѕСЂРёСЏ | РџР°С‚С‚РµСЂРЅ | РљРѕРґ |
-|---|---|---|
-| РџРѕСЂРѕР¶РґР°СЋС‰РёРµ | Singleton | [singleton.py](Lab03/singleton.py) |
-| РџРѕСЂРѕР¶РґР°СЋС‰РёРµ | Factory Method | [factory_method.py](Lab03/factory_method.py) |
-| РџРѕСЂРѕР¶РґР°СЋС‰РёРµ | Abstract Factory | [abstract_factory.py](Lab03/abstract_factory.py) |
-| РџРѕСЂРѕР¶РґР°СЋС‰РёРµ | Builder | [builder.py](Lab03/builder.py) |
-| РџРѕРІРµРґРµРЅС‡РµСЃРєРёРµ | Strategy | [strategy.py](Lab04/strategy.py) |
-| РџРѕРІРµРґРµРЅС‡РµСЃРєРёРµ | Chain of Responsibility | [chain_of_responsibility.py](Lab04/chain_of_responsibility.py) |
-| РџРѕРІРµРґРµРЅС‡РµСЃРєРёРµ | Iterator | [iterator.py](Lab04/iterator.py) |
-| РЎС‚СЂСѓРєС‚СѓСЂРЅС‹Рµ | Proxy | [proxy.py](Lab05/proxy.py) |
-| РЎС‚СЂСѓРєС‚СѓСЂРЅС‹Рµ | Bridge | [bridge.py](Lab05/bridge.py) |
-| РЎС‚СЂСѓРєС‚СѓСЂРЅС‹Рµ | Adapter | [adapter.py](Lab05/adapter.py) |
+### Порождающие — Lab03
 
-## Р—Р°РїСѓСЃРє
+| Паттерн | Исходный код |
+|---|---|
+| Singleton | [singleton.py](Lab03/singleton.py) |
+| Factory Method | [factory_method.py](Lab03/factory_method.py) |
+| Abstract Factory | [abstract_factory.py](Lab03/abstract_factory.py) |
+| Builder | [builder.py](Lab03/builder.py) |
 
-РўСЂРµР±СѓРµС‚СЃСЏ СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ Python 3.
+### Поведенческие — Lab04
 
-```bash
-git clone https://github.com/Erikqwerty1/programming-technologies.git
-cd programming-technologies
-python Lab03/singleton.py
-python Lab04/strategy.py
-python Lab05/proxy.py
-```
+| Паттерн | Исходный код |
+|---|---|
+| Strategy | [strategy.py](Lab04/strategy.py) |
+| Chain of Responsibility | [chain_of_responsibility.py](Lab04/chain_of_responsibility.py) |
+| Iterator | [iterator.py](Lab04/iterator.py) |
 
-Р”Р»СЏ РѕС‚РґРµР»СЊРЅС‹С… СЂР°Р±РѕС‚ РґРѕСЃС‚СѓРїРЅС‹ РёРЅСЃС‚СЂСѓРєС†РёРё РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёС… РїР°РїРєР°С….
+### Структурные — Lab05
 
-## РђРІС‚РѕСЂ
+| Паттерн | Исходный код |
+|---|---|
+| Proxy | [proxy.py](Lab05/proxy.py) |
+| Bridge | [bridge.py](Lab05/bridge.py) |
+| Adapter | [adapter.py](Lab05/adapter.py) |
+
+## Запуск
+
+Требуется установленный Python 3.
+
+Подробности каждой работы приведены в соответствующей папке.
+
+## Автор
 
 [Erikqwerty1](https://github.com/Erikqwerty1)
